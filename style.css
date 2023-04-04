@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "OpenSans-Regular", Arial, Helvetica, sans-serif;
+    src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: "OpenSans-Bold", Arial, Helvetica, sans-serif;
+    src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
+}
+@font-face {
+    font-family: "OpenSans-Italic", Arial, Helvetica, sans-serif;
+    src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Italic.ttf');
+}
+
+
+@font-face {
+    font-family: "DMSerifDisplay-Italic";
+    src: url('../fonts/DM_Serif_Display/DMSerifDisplay-Italic.ttf');
+}
+
+
+@font-face {
+    font-family: "DMSerifDisplay-Italic";
+    src: url('../fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf');
+}
+
+
+nav {
+    font-family: "OpenSans-Regular", Arial, Helvetica, sans-serif;
+    flood-color: rgb(7, 46, 7);
+    font-weight: 600px;
+    margin-top: 10px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(228, 131, 111, 0.8);
+}
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color:#ffffff;
+}
+
+body {
+    background-image: url(https://phonoteka.org/uploads/posts/2022-01/thumbs/1643129447_4-phonoteka-org-p-olivkovii-fon-odnotonnii-5.jpg);
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.column-1 {
+    flex-basis: 35%;
+}
+  
+.column-2 {
+    flex-basis: 65%;
+}
+
+  
+img.displayed {
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 100px;
+    margin-right: auto;
+    border-style: solid;
+    border-width: thick;
+    border-color: rgb(7, 46, 7);
+    border-radius: 50px;
+
+}
+
+h1 {
+    position: relative;
+    margin-top: 100px;
+    text-align: left;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    font-size: 36px;
+    border-left: solid;
+    border-width: 7px;
+    border-color: rgba(193, 95, 76, 0.7);
+}
+
+h2 {
+    padding: 10px 0 8px;
+    position: relative;
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    margin: 0px 0px 0px 0px;
+  }
+
+h2 ::before {
+    content: "";
+    position: absolute;
+    left: 5%;
+    bottom: 10px;
+    width: 100px;
+    height: 20px;
+    transform: skew(-12deg) translateX(-50%);
+    background: rgba(238,111,87,0.8);
+    z-index: -1;
+}
+
+
+h3 {
+    margin-bottom: 0px;
+    padding: 10px 0 8px;
+    position: relative;
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+h3::before {
+    content: "";
+    position: absolute;
+    left: 3%;
+    bottom: 10px;
+    width: 100px;
+    height: 20px;
+    transform: skew(-12deg) translateX(-50%);
+    background: rgba(238,111,87,0.8);
+    z-index: -1;
+}
+
+p {
+    font-family: "OpenSans-Regular", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    flood-color: rgb(7, 46, 7);
+    margin-top: -5px;
+}
+
+ul {
+    font-family: "OpenSans-Regular", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    flood-color: rgb(7, 46, 7);
+    margin-top: -5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    font-family: "OpenSans-Regular", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+    border-image: auto;
+}
+
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+img {
+    margin-top: -5px;
+}
+
+
+.material-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 500px;
+}
+
+
+address {
+    margin-top: 0px;
+    margin-left: 5px;
+    font-family: "OpenSans-Italic", Arial, Helvetica, sans-serif;;
+}
